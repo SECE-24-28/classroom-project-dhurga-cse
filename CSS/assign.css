@@ -1,0 +1,26 @@
+h1,h5{
+    background-color: blue;
+    border:red;
+}
+
+.container{
+    align-self: auto;
+    width:40vw;
+    height:80vh;
+    border:1px solid;
+    
+}
+h1:nth-child(1){
+    padding:30px;
+    margin:0px;
+    text-align:center;
+}
+h5:nth-child(2){
+    padding:0px;
+    margin:0px;
+    text-align:center;
+}
+h1{
+   border: 1px solid red;
+
+}

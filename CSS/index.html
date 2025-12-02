@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Demo</title>
+
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="b">Heading One</h1>
+    <h2>Heading Two</h2>
+
+    <p id="a">This is a paragraph with ID = a</p>
+
+    <!-- UL for pseudo selectors -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2 (nth-child)</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- div -> p (child & descendant selectors) -->
+    <div>
+        <p>This is a direct child paragraph</p>
+        <section>
+            <p>This is a descendant paragraph inside section</p>
+        </section>
+    </div>
+
+    <!-- Attribute selector -->
+    <button type="submit">Submit Button</button>
+    <button type="reset">Reset Button</button>
+
+    <!-- pseudo-element example -->
+    <p id="r">This is paragraph with ::before text</p>
+
+    <p id="q">First letter style applied on this paragraph.</p>
+
+    <p class="b">Class .b first-letter example.</p>
+
+</body>
+</html>
